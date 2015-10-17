@@ -20,13 +20,10 @@ Si estás usando Mac OS El Capitan, esto resuelve el problema de eventmachine:
 
 # Arrancar el servidor con rack
 
-La applicacion web arranca usando el comando `rackup`
+La applicacion web arranca usando el comando `rackup`. Algo que olvidé mencionar
+es que rackup por default busca un archivo `server.rb` para levantar un servidor.
 
-# Arrancar el servidor web personalizado
-
-Simplemente corre el archivo `server.rb`
-
-    ruby server.rb
+En este caso va a levantar con nuestro server personalizado.
 
 # ¡Gracias por asistir!
 
